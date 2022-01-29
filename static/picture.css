@@ -1,0 +1,29 @@
+.column2{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+}
+.row2 {
+	overflow: auto; /* 콘텐츠 흘러넘침 방지*/
+}
+.photo-title {
+	flex: 1;
+	background-color: #D1F0F8;
+	width: 100%;
+	padding: 0.5rem;
+	color: #3E85AB;
+}
+.phot-image {
+	flex: 1;
+	padding: 1rem;
+	width: 100px;
+	display: block;
+	margin: 5px 0px 5px 100px;
+}
+.photo-text {
+	flex: 1;
+	width: 100%;
+	margin-bottom: 3rem;
+	text-align: center;
+
+}

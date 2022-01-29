@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33a5fa06cc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+            <div class="contanier">
+                <div class="column1">
+                    <span class="text1">
+                        Today <span style="color: red;">2022</span> | Total 00000
+                    </span>
+                    <div class="row1">
+                        <div id="image"><img src="임시배경.jfif" width="200px"></div>
+                        <p>
+                            <br>
+                            사랑한단 말이라도 했으면<br>
+                            아쉬움이 없었을텐데..<br>
+                            언제나 다정한 미소로 <br>
+                            내마음을 사로잡은 사람 <br>
+                            <span style="color: rgb(255, 40, 40);">↑</span> 네이버 검색해서 적음 <span style="color: rgb(255, 40, 40);">↑</span><br>
+                            <h5>카카오</h5>
+                            <div class="dropdown">
+                                <button class="dropbtn">파도타기 ▼</button>
+                                <div class="drop-content">
+                                    <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티</a>
+                                    <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" target="_blank">조코딩</a>
+                                    <a href="https://nomadcoders.co/" target="_blank">노마드 코더</a>
+                                    <a href="https://www.likelion.net/" target="_blank">멋쟁이사자처럼</a>
+                                    <a href="#" target="_blank">기타</a>
+                                    <a href="#" target="_blank">추가 예정</a>
+                                    <a href="#" target="_blank">추가 예정</a>
+                                </div>
+                            </div>
+                        </p>   
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="text-box">
+                        <span class="text2">
+                            ュ んı절 우己l들ºl 모습을 생각ㄴrつㅓl ㈛는 <br>
+                            추억○l ㅁı니홈ㅍı
+                        </span>
+                        <span class="text3">https/url주소</span>
+                    </div>
+                    <div class="box content-box">
+                        <div class="date-box">
+                            <div class="today">01.24<br/>Mon</div>
+                            <div class="date-list"> <div class="date"><span class="date-red">1</span></div>
+                            <div class="date"><span class="date-red">2</span></div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date">7</div>
+                            <div class="date"><span class="date-blue">8</span></div>
+                            <div class="date"><span class="red">9</span></div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date">14</div>
+                            <div class="date"><span class="date-blue">15</span></div>
+                            <div class="date"><span class="red">16</span></div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date">21</div>
+                            <div class="date"><span class="date-blue">22</span></div>
+                            <div class="date"><span class="date-red">23</span></div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date">28</div>
+                            <div class="date"><span class="date-blue">29</span></div>
+                            <div class="date"><span class="date-red">30</span></div>
+                            <div class="date"><span class="date-red">31</span></div></div>
+                        </div>
+                        <div class="scroll-box">
+                            <div class="my-diary">
+                                <div class="diary-date">2022.01.24 월 11:20</div>
+                                <div class="diary-content box"> 이번주면 1월 모각코 끝 <br><br> // 2월 과정에서는 자바스크립트에 대해 공부 해봐야지 <br><br> + html css에 대해 추가 공부 및 복습하기</div>
+                            </div>
+                            <div class="my-diary">    
+                                <div class="diary-date">2022.01.25 화 12:20</div>
+                                <div class="diary-content box"> 쉽지가 않네!! <br><br> // 외부 라이브러리에 대해서 배움 <br><br> 비밀버튼에 투명하게 하고 마우스 갖다 올리면 표시하기</div>
+                            </div>
+                            <div class="my-diary">    
+                                <div class="diary-date">2022.01.26 수 13:20</div>
+                                <div class="diary-content box"> 잘 마무리 해야지~ <br><br> // 오늘은 12일차 자바스크립트 맛보기 <br><br> 비밀버튼에 텍스트 파일 연동하기</div>
+                            </div>
+                            <div class="hidden"><button class="diary-button font-neo" onclick="getTextFile()"><i class="fas fa-lock"></i>비밀버튼</button></div>
+                            <div class="my-diary" id="secret-box">
+                                <div class="diary-date">비밀 일기 내용</div>
+                                <div class="diary-content box" id="secret-diary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column3">
+                    <a href="day10home.html"><button id="home">홈</button></a>
+                    <a href="#"><button>다이어리</button></a>
+                    <a href="day10pic.html"><button>사진첩</button></a>
+                    <a href="day13visit.html"><button>방명록</button></a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script>
+         function getTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain";
+    input.onchange = function (event) {
+      processFile(event.target.files[0]);
+    };
+    input.click();
+  }
+
+  function processFile(file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "utf-8");
+
+    reader.onload = function () {
+      document.getElementById("secret-diary").innerText = reader.result;
+      document.getElementById("secret-box").style.display = "block";
+    };
+  }
+    </script>
+  </body>
+</html>

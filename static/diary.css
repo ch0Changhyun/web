@@ -1,0 +1,106 @@
+.column2{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+}
+.content-box {
+	position: relative;
+    
+    flex: 1;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid steelblue;
+    display: flex;
+    flex-direction: column;
+}
+.date-box {
+	display: flex;
+	align-items: center;
+	height: 3rem;
+	border: 1px solid #EDEDF0;
+}
+
+.today {
+	flex: 0;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem 0.8rem;
+	margin-right: 0.8rem;
+	color: #003399;
+}
+/*캘린더 레이아웃 잡기*/
+.date-list {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: start;
+}
+
+.date {
+	margin-right: 10px;
+}
+
+.date-red {
+	color: red;
+}
+
+.date-blue {
+ 	color: blue;
+}
+
+.scroll-box {
+	position: absolute;
+	top: 100px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+    overflow: auto; /* 콘텐츠 흘러넘침 방지*/
+}
+.my-diary {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+	min-height: 70%;
+	margin-bottom: 1.5rem;
+}
+
+.diary-date {
+	flex: 0;
+	color: skyblue;
+	padding: 1rem;
+}
+
+.diary-content {
+	flex: 1;
+	text-align: center;
+	padding: 1rem;
+	color: turquoise;
+	
+}
+
+.fa-lock {
+	font-size: 1rem;
+	color: white;
+	margin-right: 1rem;
+}
+
+.hidden button {
+	border: none;
+	padding: 1rem;
+	display: block;
+	margin: 10px auto;
+	font-size: 1rem;
+	font-family: "NeoDunggeunmo";
+	color: white;
+	background-color: white;
+}
+
+.hidden button:hover {
+	background-color: #8fe4fc;
+	transition: 2s ease all;  /*transition 속성 활용*/
+}
+#secret-box {
+	display: none;
+  }

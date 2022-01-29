@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'WandohopeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WandohopeR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: lightslategray;
+    background-image: url("../static/images/pattern.png");
+    background-size: 85px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.bookcover{
+    background-color: rgb(60, 175, 180);
+    border-radius: 10px;
+    border: 3px solid lightslategray;
+
+    width: 1000px;
+    height: 700px;
+
+    margin: 150px 500px;
+
+    position: relative;
+
+}
+.bookdot{
+    position: absolute;
+    margin: 13px;
+    border: 3px dashed white;
+
+    width: 970px;
+    height: 670px;
+}
+.page{
+    margin: 10px;
+    width: 950px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+
+}
+.contanier{
+    width: 930px;
+    height: 630px;
+    margin: 10px;
+    display: flex;
+}
+.column1{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+}
+.row1{
+    flex: 1;
+    background-color: white;
+    margin: 10px 20px 10px 10px;
+    padding: 15px 15px 10px 15px;
+    border-radius: 10px;
+    border: 2px solid lightsteelblue;
+}
+p{
+    color: cornflowerblue;
+    text-align: center;
+    font-family: 'WandohopeR';
+}
+.column2{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+}
+.row2{
+    flex: 1;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid lightsteelblue;
+}
+.column3{
+    flex: 0.1;
+    margin: 10px 10px 10px 0px;
+    border: 2px solid black;
+}
+.text-box{
+    display: flex;
+}
+.text1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: small;
+}
+.text2{
+    flex: 1.3;
+    padding-top: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+.text3{
+    flex: 0.7;
+    padding-top: 10px;
+    font-size: small;
+    color: blue;
+}
+.title-memo{
+    font-family: 'WandohopeB';
+    color: cyan;
+    font-size: 150%;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+hr{
+    width: 95%;
+}
+.in-content1 {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    padding: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .in-content2 {
+    background-color: #4ca3fa;
+    color: white;
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    padding: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .in-content3 {
+    background-color: #4ca3fa;
+    color: white;
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-right: 15px;
+  }
+  .in-content4 {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    width: 45px;
+    height: 20px;
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-right: 15px;
+  }
+  .out-content1 {
+    margin-bottom: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .out-content2 {
+    margin-bottom: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .out-content3 {
+    margin-bottom: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .out-content4 {
+    margin-bottom: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .in-in-content1 {
+    padding-left: 70px;
+    white-space: pre;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+  .in-in-content2 {
+    padding-left: 70px;
+    white-space: pre;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }

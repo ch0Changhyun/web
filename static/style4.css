@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF_IceLemon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '국립박물관문화재단클래식L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    font-size: 3em;
+}
+h2{
+    font-family: 'SF_IceLemon'; 
+}
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 20px 0px 20px 15px;
+    height: 150px; 
+    width: 350px;
+}
+span{
+    color: blue;
+}
+.name{
+    color: black;
+    font-weight: bold;
+
+}
+.content{
+    color: black;
+    font-family: '국립박물관문화재단클래식L';
+}
+.cont{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 120%;
+}

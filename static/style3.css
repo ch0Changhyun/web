@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'JSongMyung-Regular-KO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.hyp{
+    list-style-type: circle;
+    font-family: 'JSongMyung-Regular-KO';
+    font-size: 20px;
+}
+.img{
+    list-style-type: square;
+    font-family: 'JSongMyung-Regular-KO';
+    font-size: 20px;
+}
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 20px 0px 20px 15px;
+    height: 150px; 
+    width: 300px;
+}
+h1{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 50px;
+}
